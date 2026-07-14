@@ -105,18 +105,6 @@ project-name/
 
 ---
 
-## Research Taste
-
-I am especially interested in projects that make neural systems feel less mysterious by turning them into something inspectable:
-
-- How populations of neurons represent information
-- How neural dynamics support behavior over time
-- How learning rules shape computation
-- How biological constraints inspire machine learning systems
-- How good software practices make scientific claims easier to trust
-
----
-
 ## GitHub Stats
 
 <div align="center">
