@@ -87,23 +87,6 @@ Coming next: Python code for a simple reinforcement learning agent that learns f
 
 ---
 
-## Example Project Structure
-
-This is how I want my Python projects to be organized:
-
-```text
-project-name/
-├── README.md          # what the project does
-├── data/              # small example data or instructions
-├── notebooks/         # Jupyter notebooks for exploration
-├── src/               # reusable Python code
-├── figures/           # plots and results
-├── tests/             # tests for important functions
-└── requirements.txt   # Python packages needed
-```
-
----
-
 ## Current Goals
 
 - Get better at Python for scientific computing
