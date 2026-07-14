@@ -46,7 +46,7 @@ My goal is to write code that helps me understand:
 
 ## Recent Projects
 
-### [Single Neuron Simulation](projects/LIF-Neuron-Simulation.md)
+Leaky-integrate-and-fire Neuron Model
 
 A simple Python simulation of a leaky integrate-and-fire neuron.
 
