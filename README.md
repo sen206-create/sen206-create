@@ -46,7 +46,7 @@ My goal is to write code that helps me understand:
 
 ## Recent Projects
 
-### [Single Neuron Simulation](projects/single-neuron-simulation.md)
+### [Single Neuron Simulation](projects/LIF-Neuron-Simulation.md)
 
 A simple Python simulation of a leaky integrate-and-fire neuron.
 
@@ -55,7 +55,7 @@ This project shows how a neuron's membrane potential changes over time, how inpu
 **Python skills:** loops, lists, variables, plotting with `matplotlib`  
 **Neuroscience idea:** membrane potential, leak, threshold, and spike reset
 
-The [Single Neuron Simulation](projects/LIF Neuron Simulation.md) project file includes a short description and the full code.
+The [Single Neuron Simulation](projects/LIF-Neuron-Simulation.md) project file includes a short description and the full code.
 
 
 ### Neural Signal Visualization
