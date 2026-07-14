@@ -35,11 +35,8 @@ My goal is to write code that helps me understand:
 | Skill                      | Why it matters                                                                   |
 | -------------------------- | -------------------------------------------------------------------------------- |
 | Python                     | Building computational neuroscience models and analysing neural data             |
-| MATLAB                     | Completing neuroscience simulations and course exercises                         |
-| Jupyter notebooks          | Explaining my code and analysis step by step                                     |
-| Git and GitHub             | Tracking my progress and building a public portfolio from my online course       |
+| Portfolio design           | Tracking my progress and building a public portfolio from my online course       |
 | Computational neuroscience | Learning neural coding, spike trains, Bayesian inference, and neuronal modelling |
-
 
 ---
 
