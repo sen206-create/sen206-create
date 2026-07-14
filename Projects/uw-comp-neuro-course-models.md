@@ -4,15 +4,13 @@
 
 This project collects Python models and exercises I built while working through the University of Washington online computational neuroscience course.
 
-The folder contains small simulations and analyses that connect Python programming to core computational neuroscience ideas, including membrane dynamics, integrate-and-fire neurons, Poisson variability, population coding, synaptic input, and eigenvector-based learning.
+The folder contains small simulations and analyses that connect programming to core computational neuroscience ideas, including membrane dynamics, integrate-and-fire neurons, Poisson variability, population coding, synaptic input, and eigenvector-based learning.
 
 ## What This Project Shows
 
 - using Python to simulate neuron voltage over time
 - using `numpy` for numerical computation
 - using `matplotlib` to visualize neural models
-- loading course datasets with `pickle`
-- checking whether firing rates behave like Poisson processes
 - decoding a stimulus direction using population vectors
 - exploring how noise affects spike timing
 - working with eigenvectors and input correlations
@@ -526,13 +524,5 @@ pip install numpy matplotlib
 
 Some scripts also require the `.pickle` files from the course folder to be in the same folder as the script.
 
-## Future Improvements
 
-This project could be made more polished by:
 
-- renaming the scripts with clearer filenames
-- putting each model into a function
-- saving figures into a `figures/` folder
-- adding a short result image for each model
-- adding a small `requirements.txt`
-- adding notes explaining the neuroscience idea behind each model
