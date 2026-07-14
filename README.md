@@ -38,6 +38,10 @@ My goal is to write code that helps me understand:
 
 ### Recent Projects
 
+### University Of Washington, Computational Neuroscicence Online Course, Scripts Made,
+
+
+
 ### Leaky-integrate-and-fire Neuron Model
 
 A simple Python simulation of a leaky integrate-and-fire neuron.
