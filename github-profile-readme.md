@@ -19,7 +19,7 @@ I build code to understand brains: from neural data analysis and dynamical syste
 
 ## What I Work On
 
-I am developing my programming through computational neuroscience projects that connect theory, data, and simulation.
+I am developing my programming through neuroscience projects that connect theory, data, and simulation.
 
 | Area | What I am building |
 | --- | --- |
