@@ -2,7 +2,7 @@
 
 # Hi, I'm Sina Enayati
 
-### Computational neuroscience, and scientific programming
+### Computational neuroscience and scientific programming
 
 I am learning how to use code for neural data analysis, constructing computational models, and becoming a stronger scientific programmer.
 
