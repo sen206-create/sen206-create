@@ -55,8 +55,8 @@ This project shows how a neuron's membrane potential changes over time, how inpu
 **Python skills:** loops, lists, variables, plotting with `matplotlib`  
 **Neuroscience idea:** membrane potential, leak, threshold, and spike reset
 
-The linked project file includes a short description and the full code.
-[Single Neuron Simulation](projects/single-neuron-simulation.md)
+The [Single Neuron Simulation](projects/single-neuron-simulation.md) project file includes a short description and the full code.
+
 
 ### Neural Signal Visualization
 
