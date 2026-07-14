@@ -44,7 +44,7 @@ My goal is to write code that helps me understand:
 
 ---
 
-## Recent Projects
+### Recent Projects
 
 **Leaky-integrate-and-fire Neuron Model**
 
