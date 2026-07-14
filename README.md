@@ -2,9 +2,9 @@
 
 # Hi, I'm Sina Enayati
 
-### Python, computational neuroscience, and scientific programming
+### Computational neuroscience, and scientific programming
 
-I am using Python to learn how to analyze neural data, build computational models, and become a stronger scientific programmer.
+I am learning how to use code for neural data analysis, constructing computational models, and becoming a stronger scientific programmer.
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](#)
 [![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](#)
@@ -19,7 +19,7 @@ I am using Python to learn how to analyze neural data, build computational model
 
 ## About Me
 
-I am interested in computational neuroscience and I am developing my programming skills through Python projects.
+I am interested in computational neuroscience and I am developing my programming skills through below listed projects.
 
 My goal is to write code that helps me understand:
 
