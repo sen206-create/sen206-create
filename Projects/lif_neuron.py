@@ -1,5 +1,3 @@
-import matplotlib
-
 import matplotlib.pyplot as plt
 
 
@@ -37,8 +35,10 @@ def simulate_lif_neuron(
 def plot_voltage_trace(time_points, voltage_trace, spike_times, threshold):
     """Plot membrane potential over time and mark spike times."""
     plt.figure(figsize=(8, 5))
-    plt.plot(time_points, voltage_trace, marker="o", label="Membrane potential")
-    plt.axhline(threshold, color="red", linestyle="--", label="Spike threshold")
+    plt.plot(time_points, voltage_trace,
+             marker="o", label="Membrane potential")
+    plt.axhline(threshold, color="red", linestyle="--",
+                label="Spike threshold")
     plt.scatter(
         spike_times,
         [threshold] * len(spike_times),
@@ -52,13 +52,13 @@ def plot_voltage_trace(time_points, voltage_trace, spike_times, threshold):
     plt.title("Leaky Integrate-and-Fire Neuron")
     plt.legend()
     plt.tight_layout()
-    plt.savefig("figures/lif_neuron_plot.png", dpi=200)
-    plt.close()
+    plt.show()
 
 
 def main():
     threshold = -55
-    time_points, voltage_trace, spike_times = simulate_lif_neuron(threshold=threshold)
+    time_points, voltage_trace, spike_times = simulate_lif_neuron(
+        threshold=threshold)
 
     print("\nTime points:")
     print(time_points)
