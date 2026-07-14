@@ -56,6 +56,7 @@ This project shows how a neuron's membrane potential changes over time, how inpu
 **Neuroscience idea:** membrane potential, leak, threshold, and spike reset
 
 The linked project file includes a short description and the full code.
+[Single Neuron Simulation](projects/single-neuron-simulation.md)
 
 ### Neural Signal Visualization
 
