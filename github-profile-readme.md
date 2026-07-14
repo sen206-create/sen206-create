@@ -86,21 +86,6 @@ Coming next: Python code for a simple reinforcement learning agent that learns f
 
 ---
 
-## Python Tools I Use
-
-```python
-tools = {
-    "language": "Python",
-    "data": ["NumPy", "pandas"],
-    "science": ["SciPy", "scikit-learn"],
-    "visualization": ["matplotlib", "seaborn"],
-    "notebooks": ["Jupyter"],
-    "workflow": ["Git", "GitHub", "VS Code"]
-}
-```
-
----
-
 ## Example Project Structure
 
 This is how I want my Python projects to be organized:
@@ -128,24 +113,11 @@ project-name/
 
 ---
 
-## GitHub Stats
-
-<div align="center">
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=default&hide_border=true)
-
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=default&hide_border=true)
-
-</div>
-
----
-
 ## Connect
 
 - GitHub: `https://github.com/YOUR_GITHUB_USERNAME`
-- LinkedIn: `Add your LinkedIn`
-- Website: `Add your website if you have one`
-- Email: `Add your email if you want it public`
+- LinkedIn: `www.linkedin.com/in/sina-enayati-25b878328`
+- Email: `senayati2006@gmail.com`
 
 ---
 
