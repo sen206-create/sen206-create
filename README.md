@@ -40,6 +40,12 @@ My goal is to write code that helps me understand:
 
 ### University Of Washington, Computational Neuroscicence Online Course, Scripts Made,
 
+A collection of Python models and exercises from the University of Washington online computational neuroscience course. This project includes membrane dynamics, integrate-and-fire neurons, Poisson variability, population coding, noisy spike timing, synaptic input, and eigenvector-based learning.
+
+**Python skills:** NumPy, matplotlib, simulation loops, plotting, loading data with pickle
+**Neuroscience ideas:** neural coding, membrane voltage, spike timing, synaptic input, and learning rules
+
+The [project file](Projects/uw-neuro-course-models.md) includes short descriptions of the models and the code for each one.
 
 
 ### Leaky-integrate-and-fire Neuron Model
