@@ -32,15 +32,14 @@ My goal is to write code that helps me understand:
 
 ## What I Am Learning
 
-| Skill | Why it matters |
-| --- | --- |
-| Python basics | Writing clear scripts and understanding programming fundamentals |
-| NumPy | Working with arrays, signals, matrices, and numerical data |
-| pandas | Organizing and analyzing experimental or behavioral data |
-| SciPy | Using scientific tools for statistics, signal processing, and modeling |
-| matplotlib | Creating plots to understand neural data and model results |
-| Jupyter notebooks | Exploring ideas and explaining analysis step by step |
-| Git and GitHub | Tracking my work and building a public programming portfolio |
+| Skill                      | Why it matters                                                                   |
+| -------------------------- | -------------------------------------------------------------------------------- |
+| Python                     | Building computational neuroscience models and analysing neural data             |
+| MATLAB                     | Completing neuroscience simulations and course exercises                         |
+| Jupyter notebooks          | Explaining my code and analysis step by step                                     |
+| Git and GitHub             | Tracking my progress and building a public portfolio from my online course       |
+| Computational neuroscience | Learning neural coding, spike trains, Bayesian inference, and neuronal modelling |
+
 
 ---
 
