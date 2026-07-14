@@ -57,34 +57,6 @@ This project shows how a neuron's membrane potential changes over time, how inpu
 
 The [Single Neuron Simulation](Projects/LIF-Neuron-Simulation.md) project file includes a short description and the full code.
 
-
-### Neural Signal Visualization
-
-Coming next: Python code for creating, smoothing, and plotting neural-like time series.
-
-**Python skills:** NumPy arrays, plotting, signal smoothing  
-**Neuroscience idea:** neural signals over time
-
-`Project file coming soon`
-
-### Spike Train Analysis
-
-Coming next: Python code for simulated spike trains, raster plots, and firing rates.
-
-**Python skills:** arrays, histograms, functions, plotting  
-**Neuroscience idea:** spikes, firing rates, and neural responses
-
-`Project file coming soon`
-
-### Learning and Decision-Making Model
-
-Coming next: Python code for a simple reinforcement learning agent that learns from rewards.
-
-**Python skills:** functions, loops, probability, simulation  
-**Neuroscience idea:** reward learning and decision-making
-
-`Project file coming soon`
-
 ---
 
 ## Current Goals
