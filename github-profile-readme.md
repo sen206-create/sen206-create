@@ -68,7 +68,7 @@ A living record of my development as a scientific programmer: small projects, re
 
 ## Current Focus
 
-- Building stronger foundations in Python for scientific computing
+- Building stronger foundations in Python, MATLAB, and R for scientific computing
 - Turning exploratory notebooks into reusable, documented analysis pipelines
 - Learning best practices for Git, testing, packaging, and reproducible research
 - Studying computational models of neural dynamics, learning, and cognition
@@ -78,8 +78,8 @@ A living record of my development as a scientific programmer: small projects, re
 
 ## Technical Stack
 
-**Languages:** Python, MATLAB, R, Bash, Markdown  
-**Scientific computing:** NumPy, SciPy, pandas, xarray  
+**Languages:** Python, MATLAB, R
+**Scientific computing:** NumPy, xarray  
 **Machine learning:** PyTorch, scikit-learn  
 **Visualization:** matplotlib, seaborn, plotly  
 **Neuroscience tools:** MNE, Nilearn, Brian2, NEURON, Elephant, Neo  
@@ -132,9 +132,8 @@ I am especially interested in projects that make neural systems feel less myster
 ## Connect
 
 - GitHub: `https://github.com/YOUR_GITHUB_USERNAME`
-- LinkedIn: `Add your LinkedIn`
-- Website: `Add your personal site`
-- Email: `Add your academic/professional email`
+- LinkedIn: `www.linkedin.com/in/sina-enayati-25b878328`
+- Email: `senayati2006@gmail.com`
 
 ---
 
