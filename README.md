@@ -38,14 +38,16 @@ My goal is to write code that helps me understand:
 
 ## Recent Projects
 
-### iEEG Processing and Frequency Band analysis
+### iEEG analysis journey: Preprocessing to Machine Learning
 
-A Python pipeline for loading, cleaning, and analyzing intracranial EEG/iEEG data from an EDF file.
+A Python project documenting my path from iEEG preprocessing to tap-vs-not-tap machine learning.
 
-This project uses MNE-Python to filter neural signals, remove bad channels from metadata, compute power spectral density, and compare average power across theta, alpha, beta, gamma, and high-gamma bands.
+This project starts with signal cleaning and event-related analysis, then shows a first logistic regression model that failed on raw voltage windows, followed by a better band-power feature approach.
 
-**Python skills:** MNE-Python, pandas, matplotlib, filtering, metadata handling, CSV outputs  
-**Neuroscience idea:** iEEG preprocessing, line-noise removal, bad-channel rejection, and frequency-band power
+**Python skills:** MNE-Python, pandas, NumPy, scikit-learn, feature extraction, classification  
+**Neuroscience idea:** iEEG preprocessing, finger-tap events, frequency-band power, and model interpretability
+
+The linked project file includes the analysis story, failed baseline, improved feature model, and code.
 
 The [iEEG Preprocessing and Frequency Band Analysis](projects/ieeg-preprocessing-frequency-analysis.md) project file includes a short description and the full analysis code.
 
