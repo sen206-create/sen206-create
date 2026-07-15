@@ -36,7 +36,7 @@ My goal is to write code that helps me understand:
 
 ---
 
-### Recent Projects
+## Recent Projects
 
 ### iEEG Processing and Frequency Band analysis
 
@@ -49,6 +49,8 @@ This project uses MNE-Python to filter neural signals, remove bad channels from 
 
 The [iEEG Preprocessing and Frequency Band Analysis](projects/ieeg-preprocessing-frequency-analysis.md) project file includes a short description and the full analysis code.
 
+<p align="center">· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·</p>
+
 ### University Of Washington, Computational Neuroscicence Online Course,
 
 A collection of Python models and exercises from the University of Washington online computational neuroscience course. This project includes membrane dynamics, integrate-and-fire neurons, Poisson variability, population coding, noisy spike timing, synaptic input, and eigenvector-based learning.
@@ -58,6 +60,8 @@ A collection of Python models and exercises from the University of Washington on
 
 The [project file](Projects/uw-neuro-course-models.md) includes short descriptions of the models and the code for each one.
 
+
+<p align="center">· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·</p>
 
 ### Leaky-integrate-and-fire Neuron Model
 
