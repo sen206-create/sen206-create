@@ -409,12 +409,6 @@ It connects neural learning rules to linear algebra and data structure, which is
 
 ---
 
-## What I Left Out
-
-I did not showcase every file from the folder.
-
-I left out tiny loader scripts and scratch tests because they are useful for learning, but they do not add much to a public portfolio page. The stronger story is the progression from coding neural responses, to modeling spikes, to exploring synapses and learning.
-
 ## How To Run These Models
 
 Install the main packages:
