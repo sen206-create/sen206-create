@@ -51,7 +51,7 @@ The linked project file includes the analysis story, failed baseline, improved f
 
 The [iEEG Preprocessing and Frequency Band Analysis](projects/ieeg-preprocessing-frequency-analysis.md) project file includes a short description and the full analysis code.
 
-<p align="center">· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·</p>
+<p align="center">· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·</p>
 
 ### University Of Washington, Computational Neuroscicence Online Course,
 
@@ -62,8 +62,7 @@ A collection of Python models and exercises from the University of Washington on
 
 The [project file](Projects/uw-neuro-course-models.md) includes short descriptions of the models and the code for each one.
 
-
-<p align="center">· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·</p>
+<p align="center">· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·</p>
 
 ### Leaky-integrate-and-fire Neuron Model
 
