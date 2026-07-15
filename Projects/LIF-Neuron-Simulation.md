@@ -61,26 +61,6 @@ plt.title("Leaky Integrate-and-Fire Neuron")
 plt.show()
 ```
 
-## How To Run It
-
-Install `matplotlib`:
-
-```bash
-pip install matplotlib
-```
-
-Run the file:
-
-```bash
-python lif_neuron.py
-```
-
-If that does not work, try:
-
-```bash
-python3 lif_neuron.py
-```
-
 ## Notes
 
 This is a first version of the model. A future version could add:
