@@ -31,14 +31,14 @@ My goal is to write code that helps me understand:
 | Skill                      | Why it matters                                                                   |
 | -------------------------- | -------------------------------------------------------------------------------- |
 | Python                     | Building computational neuroscience models and analysing neural data             |
-| Portfolio design           | Tracking my progress and building a public portfolio from my online course       |
-| Computational neuroscience | Learning neural coding, spike trains, Bayesian inference, and neuronal modelling |
+| Portfolio design           | Curating a public portfolio to display my progress                               |
+| Computational neuroscience | Learning neural coding, spike trains, Bayesian inference, and EEG signal analysis|
 
 ---
 
 ### Recent Projects
 
-### University Of Washington, Computational Neuroscicence Online Course, Scripts Made,
+### University Of Washington, Computational Neuroscicence Online Course,
 
 A collection of Python models and exercises from the University of Washington online computational neuroscience course. This project includes membrane dynamics, integrate-and-fire neurons, Poisson variability, population coding, noisy spike timing, synaptic input, and eigenvector-based learning.
 
@@ -65,9 +65,8 @@ The [Single Neuron Simulation](Projects/LIF-Neuron-Simulation.md) project file i
 
 - Get better at Python for scientific computing
 - Learn how to write cleaner and more organized code
-- Build computational neuroscience projects I can explain clearly
+- Learn how to analyse EEG data
 - Practice using GitHub to document my learning
-- Create a portfolio that shows progress over time
 
 ---
 
