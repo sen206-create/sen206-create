@@ -159,11 +159,11 @@ fig.savefig(
 print("Saved clean_power_spectrum.png")
 ```
 
-## Notes For Future Improvement
+## Dataset
 
-- Use relative paths so the project runs on other computers.
-- Save figures into a dedicated `figures/` folder.
-- Save tables into a dedicated `results/` folder.
-- Add a `requirements.txt` file with the Python packages.
-- Consider adding event information later if the task timing files are available.
-- Do not upload private or restricted raw patient data to a public GitHub repository unless the dataset license allows it.
+This project uses the OpenNeuro dataset `ds005931`, "Visuomotor_task".
+
+Dataset DOI: https://doi.org/10.18112/openneuro.ds005931.v1.0.0  
+License: CC0
+
+Raw data are not included in this repository. The analysis code expects the dataset to be downloaded separately from OpenNeuro.
