@@ -38,6 +38,17 @@ My goal is to write code that helps me understand:
 
 ### Recent Projects
 
+### iEEG Processing and Frequency Band analysis
+
+A Python pipeline for loading, cleaning, and analyzing intracranial EEG/iEEG data from an EDF file.
+
+This project uses MNE-Python to filter neural signals, remove bad channels from metadata, compute power spectral density, and compare average power across theta, alpha, beta, gamma, and high-gamma bands.
+
+**Python skills:** MNE-Python, pandas, matplotlib, filtering, metadata handling, CSV outputs  
+**Neuroscience idea:** iEEG preprocessing, line-noise removal, bad-channel rejection, and frequency-band power
+
+The [iEEG Preprocessing and Frequency Band Analysis](projects/ieeg-preprocessing-frequency-analysis.md) project file includes a short description and the full analysis code.
+
 ### University Of Washington, Computational Neuroscicence Online Course,
 
 A collection of Python models and exercises from the University of Washington online computational neuroscience course. This project includes membrane dynamics, integrate-and-fire neurons, Poisson variability, population coding, noisy spike timing, synaptic input, and eigenvector-based learning.
