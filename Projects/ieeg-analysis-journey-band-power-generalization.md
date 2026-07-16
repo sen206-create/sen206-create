@@ -137,7 +137,7 @@ This means:
 - 6 tap windows were incorrectly classified as not tap
 - 30 tap windows were correctly classified as tap
 
-![Band-power classifier confusion matrix](assets/confusion_matrix_band_power.png)
+![Band-power classifier confusion matrix](Figures/confusion_matrix_band_power.png)
 
 ## Stage 4: Testing Generalization
 
