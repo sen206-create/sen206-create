@@ -48,7 +48,7 @@ Instead of feeding the model raw voltage windows, I summarized each window using
 
 Then I expanded across other sessions and subjects. The model dropped back to about 48-49% accuracy on the larger/unseen-recording tests, showing that single-recording success did not automatically generalize.
 
-**Python skills:** SciPy, NumPy, pandas, scikit-learn, feature extraction, model evaluation.  
+**Python skills:** SciPy, NumPy, pandas, scikit-learn, feature extraction, model evaluation.
 **Neuroscience idea:** frequency-band power, model interpretability, and generalization across neural recordings.
 
 The [project file](projects/ieeg-analysis-journey-band-power-generalization.md) includes the band-power model, the cross-recording test, and the lesson from the model failing to generalize.
