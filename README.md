@@ -4,7 +4,7 @@
 
 ### Computational Neuroscience and Scientific Programming
 
-I am learning how to use code for neural data analysis, constructing computational models, and becoming a stronger scientific programmer.
+I am learning how to use code for neural data analysis, constructing computational models, and to understand the process of machine learning.
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](#)
 
@@ -19,23 +19,25 @@ I am interested in computational neuroscience and I am developing my programming
 
 My goal is to write code that helps me understand:
 
-- how neurons and neural systems process information
-- how data from the brain can be analyzed and visualized
-- how mathematical models can explain behavior and cognition
-- how to make scientific code cleaner, clearer, and more reproducible
+- How neurons and neural systems process information
+- How data from the brain can be analyzed and visualized
+- How mathematical models can explain behavior and cognition
+- How machine learning can be optimised to expedite analysis of data
+- How to make scientific code cleaner, clearer, and more reproducible
 
 ---
 
-## What I Am Learning
+## Skills and Knowledge I'm developing
 
-| Skill                      | Why it matters                                                                   |
+| Skill/Knowledge            | Why it matters                                                                   |
 | -------------------------- | -------------------------------------------------------------------------------- |
-| Python                     | Building computational neuroscience models and analysing neural data             |
-| Portfolio design           | Curating a public portfolio to display my progress                               |
+| Python basics              | Writing clear scripts and understanding programming fundamentals                 |
+| NumPy                      | Working with arrays, signals, matrices, and numerical data                       |
+| pandas                     | Organizing and analyzing experimental or behavioral data                         |
+| Portfolio design           | Demonstrate and record my progress on my coding journey                          |
 | Computational neuroscience | Learning neural coding, spike trains, Bayesian inference, and EEG signal analysis|
 
 ---
-
 ## Recent Projects (Descending Chronological Order)
 
 ### iEEG Analysis Journey (Part Two): Band Power and Generalization
@@ -104,7 +106,6 @@ The [Single Neuron Simulation](Projects/LIF-Neuron-Simulation.md) project file i
 
 ## Connect
 
-- GitHub: `https://github.com/YOUR_GITHUB_USERNAME`
 - LinkedIn: `www.linkedin.com/in/sina-enayati-25b878328`
 - Email: `senayati2006@gmail.com`
 
