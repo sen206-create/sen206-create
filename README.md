@@ -38,7 +38,7 @@ My goal is to write code that helps me understand:
 
 ## Recent Projects (Descending Chronological Order)
 
-### iEEG Analysis Journey: Band Power and Generalization
+### iEEG Analysis Journey (Part Two): Band Power and Generalization
 
 A follow-up iEEG project where I improved the feature representation, then tested whether the improvement held up on unseen recordings.
 
@@ -53,7 +53,7 @@ The [linked project file](projects/ieeg-analysis-journey-band-power-generalizati
 
 <p align="center">· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·</p>
 
-### iEEG Analysis Journey: Building the First Tap Classifier
+### iEEG Analysis Journey (Part One): Building the First Tap Classifier
 
 A Python project where I learned how to turn raw intracranial EEG recordings into a machine learning dataset.
 
