@@ -16,18 +16,6 @@ This project helped me practice Python functions, loops, lists, plotting with `m
 - how spike times can be stored
 - how to save a voltage-trace figure
 
-## Project Structure
-
-```text
-single-neuron-simulation/
-├── README.md
-├── requirements.txt
-├── src/
-│   └── lif_neuron.py
-└── figures/
-    └── lif_neuron_plot.png
-```
-
 ## Main Code
 
 ```python
@@ -93,21 +81,6 @@ def plot_voltage_trace(time_points, voltage_trace, spike_times, threshold):
     plt.savefig(figures_dir / "lif_neuron_plot.png", dpi=200)
     plt.close()
 ```
-
-## How To Run It
-
-Install the required package:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the simulation from the project folder:
-
-```bash
-python src/lif_neuron.py
-```
-
 ## Example Output
 
 The script prints whether the neuron spikes at each time step and saves this plot:
