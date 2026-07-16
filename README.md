@@ -51,7 +51,7 @@ Then I expanded across other sessions and subjects. The model dropped back to ab
 **Python skills:** SciPy, NumPy, pandas, scikit-learn, feature extraction, model evaluation  
 **Neuroscience idea:** frequency-band power, model interpretability, and generalization across neural recordings
 
-The [linked project file](projects/ieeg-analysis-journey-band-power-generalization.md) includes the band-power model, the cross-recording test, and the lesson from the model failing to generalize.
+The [project file](projects/ieeg-analysis-journey-band-power-generalization.md) includes the band-power model, the cross-recording test, and the lesson from the model failing to generalize.
 
 <p align="center">· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·</p>
 
@@ -66,7 +66,7 @@ This became the first useful failure in the project: it showed me that a classif
 **Python skills:** MNE-Python, pandas, NumPy, scikit-learn, preprocessing, dataset creation  
 **Neuroscience idea:** iEEG filtering, finger-tap events, epoching, and why raw voltage windows are hard to classify
 
-The [linked project file](projects/ieeg-analysis-journey-first-tap-classifier.md) includes the preprocessing workflow, the first failed classifier, and what I learned from it.
+The [project file](projects/ieeg-analysis-journey-first-tap-classifier.md) includes the preprocessing workflow, the first failed classifier, and what I learned from it.
 
 <p align="center">· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·</p>
 
