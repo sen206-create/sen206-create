@@ -38,7 +38,7 @@ My goal is to write code that helps me understand:
 
 ## Recent Projects (Descending Chronological Order)
 
-### [iEEG Analysis Journey: Band Power and Generalization](projects/ieeg-analysis-journey-band-power-generalization.md)
+### iEEG Analysis Journey: Band Power and Generalization
 
 A follow-up iEEG project where I improved the feature representation, then tested whether the improvement held up on unseen recordings.
 
@@ -49,11 +49,11 @@ Then I expanded across other sessions and subjects. The model dropped back to ab
 **Python skills:** SciPy, NumPy, pandas, scikit-learn, feature extraction, model evaluation  
 **Neuroscience idea:** frequency-band power, model interpretability, and generalization across neural recordings
 
-The linked project file includes the band-power model, the cross-recording test, and the lesson from the model failing to generalize.
+The [linked project file](projects/ieeg-analysis-journey-band-power-generalization.md) includes the band-power model, the cross-recording test, and the lesson from the model failing to generalize.
 
 <p align="center">· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·</p>
 
-### [iEEG Analysis Journey: Building the First Tap Classifier](projects/ieeg-analysis-journey-first-tap-classifier.md)
+### iEEG Analysis Journey: Building the First Tap Classifier
 
 A Python project where I learned how to turn raw intracranial EEG recordings into a machine learning dataset.
 
@@ -64,7 +64,7 @@ This became the first useful failure in the project: it showed me that a classif
 **Python skills:** MNE-Python, pandas, NumPy, scikit-learn, preprocessing, dataset creation  
 **Neuroscience idea:** iEEG filtering, finger-tap events, epoching, and why raw voltage windows are hard to classify
 
-The linked project file includes the preprocessing workflow, the first failed classifier, and what I learned from it.
+The [linked project file](projects/ieeg-analysis-journey-first-tap-classifier.md) includes the preprocessing workflow, the first failed classifier, and what I learned from it.
 
 <p align="center">· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·</p>
 
