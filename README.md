@@ -77,7 +77,7 @@ A collection of Python models and exercises from the University of Washington on
 **Python skills:** NumPy, matplotlib, simulation loops, plotting, loading data with pickle
 **Neuroscience ideas:** neural coding, membrane voltage, spike timing, synaptic input, and learning rules
 
-The [project file](Projects/uw-neuro-course-models.md) includes short descriptions of the models and the code for each one.
+The [project file](Projects/uw-comp-neuro-course-models.md) includes short descriptions of the models and the code for each one.
 
 <p align="center">· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·</p>
 
