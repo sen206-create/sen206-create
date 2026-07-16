@@ -367,7 +367,7 @@ plt.show()
 
 print("Spike Count:", spike_counts)
 ```
-
+![Spike Count Vs. Synaptic time to peak](Figures/Spike_count.png)
 **Why this is worth showing:**  
 This model demonstrates a richer neuron simulation with synaptic inputs and adaptation, which looks more advanced than a basic integrate-and-fire script.
 
@@ -433,6 +433,7 @@ principal_eigenvector = vecs[:, np.argmax(vals)]
 print("Principal eigenvector:", principal_eigenvector)
 print("Length of final weight vector:", np.linalg.norm(principal_eigenvector))
 ```
+![Mean-centred input data](Figures/Mean_centred.png)
 
 **Why this is worth showing:**  
 It connects neural learning rules to linear algebra and data structure, which is a valuable computational neuroscience theme.
