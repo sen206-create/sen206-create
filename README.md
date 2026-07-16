@@ -97,9 +97,7 @@ The [Single Neuron Simulation](Projects/single-neuron-simulation.md) project fil
 ## Current Goals
 
 - Get better at Python for scientific computing
-- Learn how to write cleaner and more organized code
-- Learn how to analyse EEG data
-- Practice using GitHub to document my learning
+- Practise analysing EEG data
 - Familarise myself with machine learning concepts
 
 ---
