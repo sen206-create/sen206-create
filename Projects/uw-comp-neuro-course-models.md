@@ -55,7 +55,7 @@ plt.title('Poisson check: variance vs mean')
 plt.legend()
 plt.show()
 ```
-
+![Poisson Variability plot](Figures/poisson_check)
 ### Population Vector Decoding
 
 ```python
