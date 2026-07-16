@@ -252,7 +252,7 @@ plt.title("ISI distributions across noise amplitudes")
 plt.legend()
 plt.show()
 ```
-![ISI distributions](Figures/ISI distributions.png)
+![ISI distributions](Figures/ISI_distributions.png)
 **Why this is worth showing:**  
 These models form a clear progression: passive voltage change, threshold spiking, then noisy spike timing.
 
