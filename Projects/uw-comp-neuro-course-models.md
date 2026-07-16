@@ -433,7 +433,7 @@ principal_eigenvector = vecs[:, np.argmax(vals)]
 print("Principal eigenvector:", principal_eigenvector)
 print("Length of final weight vector:", np.linalg.norm(principal_eigenvector))
 ```
-![Mean-centred input data](Figures/Mean_centred.png)
+![Mean-centred input data](Figures/mean_centred.png)
 
 **Why this is worth showing:**  
 It connects neural learning rules to linear algebra and data structure, which is a valuable computational neuroscience theme.
