@@ -48,8 +48,8 @@ Instead of feeding the model raw voltage windows, I summarized each window using
 
 Then I expanded across other sessions and subjects. The model dropped back to about 48-49% accuracy on the larger/unseen-recording tests, showing that single-recording success did not automatically generalize.
 
-**Python skills:** SciPy, NumPy, pandas, scikit-learn, feature extraction, model evaluation  
-**Neuroscience idea:** frequency-band power, model interpretability, and generalization across neural recordings
+**Python skills:** SciPy, NumPy, pandas, scikit-learn, feature extraction, model evaluation.  
+**Neuroscience idea:** frequency-band power, model interpretability, and generalization across neural recordings.
 
 The [project file](projects/ieeg-analysis-journey-band-power-generalization.md) includes the band-power model, the cross-recording test, and the lesson from the model failing to generalize.
 
@@ -63,8 +63,8 @@ I started by loading an OpenNeuro iEEG dataset, filtering the signal, removing b
 
 This became the first useful failure in the project: it showed me that a classifier needs a better representation than thousands of raw voltage samples.
 
-**Python skills:** MNE-Python, pandas, NumPy, scikit-learn, preprocessing, dataset creation  
-**Neuroscience idea:** iEEG filtering, finger-tap events, epoching, and why raw voltage windows are hard to classify
+**Python skills:** MNE-Python, pandas, NumPy, scikit-learn, preprocessing, dataset creation.
+**Neuroscience idea:** iEEG filtering, finger-tap events, epoching, and why raw voltage windows are hard to classify.
 
 The [project file](projects/ieeg-analysis-journey-first-tap-classifier.md) includes the preprocessing workflow, the first failed classifier, and what I learned from it.
 
@@ -74,8 +74,8 @@ The [project file](projects/ieeg-analysis-journey-first-tap-classifier.md) inclu
 
 A collection of Python models and exercises from the University of Washington online computational neuroscience course. This project includes membrane dynamics, integrate-and-fire neurons, Poisson variability, population coding, noisy spike timing, synaptic input, and eigenvector-based learning.
 
-**Python skills:** NumPy, matplotlib, simulation loops, plotting, loading data with pickle
-**Neuroscience ideas:** neural coding, membrane voltage, spike timing, synaptic input, and learning rules
+**Python skills:** NumPy, matplotlib, simulation loops, plotting, loading data with pickle.
+**Neuroscience ideas:** neural coding, spike timing, synaptic input, and learning rules.
 
 The [project file](Projects/uw-comp-neuro-course-models.md) includes short descriptions of the models and the code for each one.
 
@@ -87,8 +87,8 @@ A simple Python simulation of a leaky integrate-and-fire neuron.
 
 This project shows how a neuron's membrane potential changes over time and the affect of input current on that change, and how a spike happens when the voltage reaches a threshold.
 
-**Python skills:** loops, lists, variables, plotting with `matplotlib`  
-**Neuroscience idea:** membrane potential, leak, threshold, and spike reset
+**Python skills:** loops, lists, variables, plotting with `matplotlib`.
+**Neuroscience idea:** membrane potential, leak, threshold, and spike reset.
 
 The [Single Neuron Simulation](Projects/LIF-Neuron-Simulation.md) project file includes a short description and the full code.
 
