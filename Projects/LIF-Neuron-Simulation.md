@@ -22,17 +22,19 @@ This project helped me practice Python loops, lists, functions, plotting with `m
 ```python
 import matplotlib.pyplot as plt
 
-
+# Setting values for parameters
 V_rest = -70
 V = V_rest
 threshold = -55
 input_current = 3
 dt = 1
 
+# Creating lists for calculated values
 V_trace = []
 spike_times = []
 time_points = []
 
+# Using a for loop to cycle across a range of time points
 for step in range(10):
     time = step * dt
     time_points.append(time)
@@ -52,6 +54,7 @@ print(time_points)
 print(V_trace)
 print(spike_times)
 
+# Plotting the Voltage trace
 plt.plot(time_points, V_trace)
 plt.axhline(threshold, color="red")
 plt.xlabel("Time (ms)")
@@ -63,10 +66,4 @@ plt.show()
 
 ## Notes
 
-This is a first version of the model. A future version could add:
-
-- more time steps
-- different input currents
-- a refractory period
-- multiple neurons
-- a cleaner function-based structure
+Copy the code and observe changes in firing behaviour when you alter the parameters.
