@@ -36,7 +36,7 @@ My goal is to write code that helps me understand:
 
 ---
 
-## Recent Projects
+## Recent Projects (Descending Chronological Order)
 
 ### iEEG analysis journey: Preprocessing to Machine Learning
 
@@ -53,7 +53,7 @@ The [iEEG Preprocessing and Frequency Band Analysis](Projects/ieeg-preprocessing
 
 <p align="center">· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·</p>
 
-### University Of Washington, Computational Neuroscicence Online Course,
+### University Of Washington, Computational Neuroscicence Online Course
 
 A collection of Python models and exercises from the University of Washington online computational neuroscience course. This project includes membrane dynamics, integrate-and-fire neurons, Poisson variability, population coding, noisy spike timing, synaptic input, and eigenvector-based learning.
 
@@ -83,6 +83,7 @@ The [Single Neuron Simulation](Projects/LIF-Neuron-Simulation.md) project file i
 - Learn how to write cleaner and more organized code
 - Learn how to analyse EEG data
 - Practice using GitHub to document my learning
+- Familarise with machine learning concepts
 
 ---
 
