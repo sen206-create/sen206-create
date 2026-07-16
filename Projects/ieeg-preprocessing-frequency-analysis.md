@@ -383,7 +383,6 @@ The first classifier failed because raw voltage windows were too large and unstr
 ## Next Steps
 
 - Run the band-power classifier and record the measured accuracy.
-- Save the classification report to a text file.
 - Plot confusion matrices for both classifiers.
 - Extend the dataset from one recording to multiple sessions.
 - Try a neural network only after the feature-based baseline is understood.
