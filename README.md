@@ -49,7 +49,7 @@ This project starts with signal cleaning and event-related analysis, then shows 
 
 The linked project file includes the analysis story, failed baseline, improved feature model, and code.
 
-The [iEEG Preprocessing and Frequency Band Analysis](projects/ieeg-preprocessing-frequency-analysis.md) project file includes a short description and the full analysis code.
+The [iEEG Preprocessing and Frequency Band Analysis](Projects/ieeg-preprocessing-frequency-analysis.md) project file includes a short description and the full analysis code.
 
 <p align="center">· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·</p>
 
