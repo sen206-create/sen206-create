@@ -38,20 +38,33 @@ My goal is to write code that helps me understand:
 
 ## Recent Projects (Descending Chronological Order)
 
-### iEEG Analysis Journey: From First Failure to Generalization
+### [iEEG Analysis Journey: Band Power and Generalization](projects/ieeg-analysis-journey-band-power-generalization.md)
 
-A Python project documenting my path from iEEG preprocessing to tap-vs-not-tap machine learning, written as a two-part learning story.
+A follow-up iEEG project where I improved the feature representation, then tested whether the improvement held up on unseen recordings.
 
-**Part 1:** I started with one iEEG recording, cleaned the signal, created tap and not-tap examples, and trained a logistic regression model on raw voltage windows. That first model failed at about 49% accuracy, which showed me that raw `channels x time` data was not a good first representation.
+Instead of feeding the model raw voltage windows, I summarized each window using theta, alpha, beta, gamma, and high-gamma power. On one recording, this improved logistic regression accuracy to about 78.1%.
 
-I then rebuilt the model using band-power features from theta, alpha, beta, gamma, and high-gamma activity. That version improved to about 78.1% accuracy on the same recording.
+Then I expanded across other sessions and subjects. The model dropped back to about 48-49% accuracy on the larger/unseen-recording tests, showing that single-recording success did not automatically generalize.
 
-**Part 2:** The next question is harder: does the band-power model still work on recordings it has never seen before? I am expanding the analysis across other sessions and subjects to test generalization, not just performance on one file.
+**Python skills:** SciPy, NumPy, pandas, scikit-learn, feature extraction, model evaluation  
+**Neuroscience idea:** frequency-band power, model interpretability, and generalization across neural recordings
 
-**Python skills:** MNE-Python, pandas, NumPy, scikit-learn, feature extraction, classification  
-**Neuroscience idea:** iEEG preprocessing, finger-tap events, frequency-band power, model failure, and generalization across recordings
+The linked project file includes the band-power model, the cross-recording test, and the lesson from the model failing to generalize.
 
-The [project file](projects/ieeg-preprocessing-frequency-analysis.md) includes the analysis story, failed baseline, improved feature model, Part 2 generalization plan, and code.
+<p align="center">· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·</p>
+
+### [iEEG Analysis Journey: Building the First Tap Classifier](projects/ieeg-analysis-journey-first-tap-classifier.md)
+
+A Python project where I learned how to turn raw intracranial EEG recordings into a machine learning dataset.
+
+I started by loading an OpenNeuro iEEG dataset, filtering the signal, removing bad channels, finding finger-tap events, and creating tap vs not-tap examples. My first logistic regression model used raw `channels x time` voltage windows and performed around chance level at about 49% accuracy.
+
+This became the first useful failure in the project: it showed me that a classifier needs a better representation than thousands of raw voltage samples.
+
+**Python skills:** MNE-Python, pandas, NumPy, scikit-learn, preprocessing, dataset creation  
+**Neuroscience idea:** iEEG filtering, finger-tap events, epoching, and why raw voltage windows are hard to classify
+
+The linked project file includes the preprocessing workflow, the first failed classifier, and what I learned from it.
 
 <p align="center">· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·</p>
 
@@ -85,7 +98,7 @@ The [Single Neuron Simulation](Projects/LIF-Neuron-Simulation.md) project file i
 - Learn how to write cleaner and more organized code
 - Learn how to analyse EEG data
 - Practice using GitHub to document my learning
-- Familarise with machine learning concepts
+- Familarise myself with machine learning concepts
 
 ---
 
