@@ -19,67 +19,50 @@ This project helped me practice Python functions, loops, lists, plotting with `m
 ## Main Code
 
 ```python
-from pathlib import Path
-
 import matplotlib.pyplot as plt
 
+V_rest = -70
+V = V_rest
+threshold = -55
+input_current = 3
+dt = 1
+steps = 10
 
-def simulate_lif_neuron(
-    v_rest=-70,
-    threshold=-55,
-    input_current=3,
-    dt=1,
-    steps=10,
-):
-    """Simulate a simple leaky integrate-and-fire neuron."""
-    voltage = v_rest
-    voltage_trace = []
-    spike_times = []
-    time_points = []
+time_points = []
+V_trace = []
+spike_times = []
 
-    for step in range(steps):
-        time = step * dt
-        time_points.append(time)
+for step in range(steps):
+    time = step * dt
+    time_points.append(time)
 
-        # Leak pulls voltage back toward resting potential.
-        leak = 0.1 * (v_rest - voltage)
-        voltage = voltage + leak + input_current
-        voltage_trace.append(round(voltage, 2))
+    # Leak pulls the voltage back toward resting potential
+    leak = 0.1 * (V_rest - V)
 
-        if voltage >= threshold:
-            print(f"Time {time} ms: Spike!")
-            spike_times.append(time)
-            voltage = v_rest
-        else:
-            print(f"Time {time} ms: No spike")
+    # Input current pushes the voltage upward
+    V = V + leak + input_current
+    V_trace.append(round(V, 2))
 
-    return time_points, voltage_trace, spike_times
+    if V >= threshold:
+        print("Spike at", time, "ms")
+        spike_times.append(time)
+        V = V_rest
+    else:
+        print("No spike at", time, "ms")
 
+print("Time points:", time_points)
+print("Voltage trace:", V_trace)
+print("Spike times:", spike_times)
 
-def plot_voltage_trace(time_points, voltage_trace, spike_times, threshold):
-    """Plot membrane potential over time and mark spike times."""
-    project_dir = Path(__file__).resolve().parents[1]
-    figures_dir = project_dir / "figures"
-    figures_dir.mkdir(exist_ok=True)
+plt.plot(time_points, V_trace, marker="o")
+plt.axhline(threshold, color="red", linestyle="--", label="Threshold")
+plt.scatter(spike_times, [threshold] * len(spike_times), color="black", label="Spike")
 
-    plt.figure(figsize=(8, 5))
-    plt.plot(time_points, voltage_trace, marker="o", label="Membrane potential")
-    plt.axhline(threshold, color="red", linestyle="--", label="Spike threshold")
-    plt.scatter(
-        spike_times,
-        [threshold] * len(spike_times),
-        color="black",
-        zorder=3,
-        label="Spike",
-    )
-
-    plt.xlabel("Time (ms)")
-    plt.ylabel("Membrane potential (mV)")
-    plt.title("Leaky Integrate-and-Fire Neuron")
-    plt.legend()
-    plt.tight_layout()
-    plt.savefig(figures_dir / "lif_neuron_plot.png", dpi=200)
-    plt.close()
+plt.xlabel("Time (ms)")
+plt.ylabel("Membrane potential (mV)")
+plt.title("Leaky Integrate-and-Fire Neuron")
+plt.legend()
+plt.show()
 ```
 ## Example Output
 
