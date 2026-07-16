@@ -38,18 +38,20 @@ My goal is to write code that helps me understand:
 
 ## Recent Projects (Descending Chronological Order)
 
-### iEEG analysis journey: Preprocessing to Machine Learning
+### iEEG Analysis Journey: From First Failure to Generalization
 
-A Python project documenting my path from iEEG preprocessing to tap-vs-not-tap machine learning.
+A Python project documenting my path from iEEG preprocessing to tap-vs-not-tap machine learning, written as a two-part learning story.
 
-This project starts with signal cleaning and event-related analysis, then shows a first logistic regression model that failed on raw voltage windows, followed by a better band-power feature approach.
+**Part 1:** I started with one iEEG recording, cleaned the signal, created tap and not-tap examples, and trained a logistic regression model on raw voltage windows. That first model failed at about 49% accuracy, which showed me that raw `channels x time` data was not a good first representation.
+
+I then rebuilt the model using band-power features from theta, alpha, beta, gamma, and high-gamma activity. That version improved to about 78.1% accuracy on the same recording.
+
+**Part 2:** The next question is harder: does the band-power model still work on recordings it has never seen before? I am expanding the analysis across other sessions and subjects to test generalization, not just performance on one file.
 
 **Python skills:** MNE-Python, pandas, NumPy, scikit-learn, feature extraction, classification  
-**Neuroscience idea:** iEEG preprocessing, finger-tap events, frequency-band power, and model interpretability
+**Neuroscience idea:** iEEG preprocessing, finger-tap events, frequency-band power, model failure, and generalization across recordings
 
-The linked project file includes the analysis story, failed baseline, improved feature model, and code.
-
-The [iEEG Preprocessing and Frequency Band Analysis](Projects/ieeg-preprocessing-frequency-analysis.md) project file includes a short description and the full analysis code.
+The [project file](projects/ieeg-preprocessing-frequency-analysis.md) includes the analysis story, failed baseline, improved feature model, Part 2 generalization plan, and code.
 
 <p align="center">· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·</p>
 
