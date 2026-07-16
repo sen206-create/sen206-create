@@ -85,7 +85,7 @@ def plot_voltage_trace(time_points, voltage_trace, spike_times, threshold):
 
 The script prints whether the neuron spikes at each time step and saves this plot:
 
-![Leaky integrate-and-fire neuron plot](Projects/lif_neuron_plot.png)
+[Leaky integrate-and-fire neuron plot](Projects/lif_neuron_plot.png)
 
 ## Notes
 
