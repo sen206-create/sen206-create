@@ -439,23 +439,3 @@ print("Length of final weight vector:", np.linalg.norm(principal_eigenvector))
 It connects neural learning rules to linear algebra and data structure, which is a valuable computational neuroscience theme.
 
 ---
-
-## What I Left Out
-
-I did not showcase every file from the folder.
-
-I left out tiny loader scripts and scratch tests because they are useful for learning, but they do not add much to a public portfolio page. The stronger story is the progression from coding neural responses, to modeling spikes, to exploring synapses and learning.
-
-## How To Run These Models
-
-Install the main packages:
-
-```bash
-pip install numpy matplotlib
-```
-
-Some models require the course `.pickle` files to be in the same folder as the script:
-
-- `tuning_3.4.pickle`
-- `pop_coding_3.4.pickle`
-- `c10p1.pickle`
