@@ -33,7 +33,7 @@ My goal is to write code that helps me understand:
 | -------------------------- | -------------------------------------------------------------------------------- |
 | Python basics              | Writing clear scripts and understanding programming fundamentals                 |
 | NumPy                      | Working with arrays, signals, matrices, and numerical data                       |
-| pandas                     | Organizing and analyzing experimental or behavioral data                         |
+| Pandas                     | Organizing and analyzing experimental or behavioral data                         |
 | Portfolio design           | Demonstrate and record my progress on my coding journey                          |
 | Computational neuroscience | Learning neural coding, spike trains, Bayesian inference, and EEG signal analysis|
 
