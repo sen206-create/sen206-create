@@ -57,32 +57,22 @@ recording_dir = data_root / "sub-01" / "ses-01" / "ieeg"
 edf_path = recording_dir / "sub-01_ses-01_task-game_run-01_ieeg.edf"
 channels_path = recording_dir / "sub-01_ses-01_task-game_run-01_channels.tsv"
 
-
-# Load the raw iEEG signal from the EDF file.
 raw = mne.io.read_raw_edf(edf_path, preload=True)
 
-# Work on a copy so the original raw object stays unchanged.
 raw_filtered = raw.copy()
 
-# Keep the main neural frequency range I want to analyze.
 raw_filtered.filter(1, 150)
 
-# Remove electrical line noise and its harmonic.
 raw_filtered.notch_filter(freqs=[60, 120])
 
-# Load the channel metadata table.
 channels = pd.read_csv(channels_path, sep="\t")
 
-# Find channels marked as bad in the metadata.
 bad_channels = channels.loc[channels["status"] == "bad", "name"].tolist()
 
-# Convert names from the TSV format into the EDF channel-name format.
 bad_channels = [f"POL {ch}-AV" for ch in bad_channels]
 
-# Only keep bad channel names that actually exist in this recording.
 bad_channels = [ch for ch in bad_channels if ch in raw_filtered.ch_names]
 
-# Drop bad channels from the cleaned copy.
 raw_clean = raw_filtered.copy().drop_channels(bad_channels)
 
 fig = raw_clean.plot(duration=10, n_channels=20, show=False)
@@ -113,16 +103,12 @@ print(event_id)
 print("First 10 events:")
 print(events[:10])
 
-# Keep only the finger-tapping trigger.
 tap_event_id = {
     event_name: event_code
     for event_name, event_code in event_id.items()
     if "101" in str(event_name)
 }
 
-# Create windows around each tap event.
-# tmin=-0.5 starts 0.5 seconds before the tap.
-# tmax=1.0 ends 1.0 seconds after the tap.
 epochs = mne.Epochs(
     raw_clean,
     events,
@@ -133,14 +119,11 @@ epochs = mne.Epochs(
     preload=True,
 )
 
-# X_tap shape: trials x channels x time points.
 X_tap = epochs.get_data()
 y_tap = np.ones(len(X_tap))
 
-# Match the not-tap windows to the same length as the tap windows.
 window_samples = X_tap.shape[2]
 
-# Get the full cleaned recording as channels x time.
 raw_data = raw_clean.get_data()
 tap_event_codes = list(tap_event_id.values())
 tap_samples = events[np.isin(events[:, 2], tap_event_codes), 0]
@@ -183,8 +166,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report
 
-
-# Flatten each trial from channels x time into one long feature vector.
 X_flat = X_all.reshape(X_all.shape[0], -1)
 
 X_train, X_test, y_train, y_test = train_test_split(
