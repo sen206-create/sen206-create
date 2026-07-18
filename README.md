@@ -70,7 +70,7 @@ The [project file](Projects/ieeg-analysis-journey-first-tap-classifier.md) inclu
 
 ### University Of Washington, Computational Neuroscicence Online Course
 
-A collection of Python models and exercises from the University of Washington online Computational Neuroscience course. This project includes membrane dynamics, integrate-and-fire neurons, Poisson variability, population coding, noisy spike timing, synaptic input, and eigenvector-based learning.
+A collection of Python models and exercises from the University of Washington online Computational Neuroscience course. 
 
 **Python skills:** NumPy, matplotlib, simulation loops, plotting, loading data with pickle.        
 **Neuroscience ideas:** neural coding, spike timing, synaptic input, and learning rules.
