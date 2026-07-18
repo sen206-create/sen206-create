@@ -58,19 +58,13 @@ edf_path = recording_dir / "sub-01_ses-01_task-game_run-01_ieeg.edf"
 channels_path = recording_dir / "sub-01_ses-01_task-game_run-01_channels.tsv"
 
 raw = mne.io.read_raw_edf(edf_path, preload=True)
-
 raw_filtered = raw.copy()
-
 raw_filtered.filter(1, 150)
-
 raw_filtered.notch_filter(freqs=[60, 120])
 
 channels = pd.read_csv(channels_path, sep="\t")
-
 bad_channels = channels.loc[channels["status"] == "bad", "name"].tolist()
-
 bad_channels = [f"POL {ch}-AV" for ch in bad_channels]
-
 bad_channels = [ch for ch in bad_channels if ch in raw_filtered.ch_names]
 
 raw_clean = raw_filtered.copy().drop_channels(bad_channels)
