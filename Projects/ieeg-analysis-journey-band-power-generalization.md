@@ -137,7 +137,7 @@ subject | session | file | theta | alpha | beta | gamma | high_gamma | label
 ```
 
 The full scripts are:
-- [Build_full_band_power_classifier.py](../Long_Scripts/04_build_full_band_power_dataset.py)
+- [Build_full_band_power_classifier.py](/Long_Scripts/04_build_full_band_power_dataset.py)
 - [Train_full_band_power_classifier.py](../Long_Scripts/05_train_full_band_power_classifier.py)
 
 ## Generalization Result
