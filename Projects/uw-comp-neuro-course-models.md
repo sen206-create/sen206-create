@@ -34,12 +34,10 @@ import numpy as np
 with open('tuning_3.4.pickle', 'rb') as f:
     data = pickle.load(f)
 
-# Store all means and variances so the reference line fits the whole plot.
 all_means = []
 all_vars = []
 
 for neuron in ['neuron1', 'neuron2', 'neuron3', 'neuron4']:
-    # Compare average firing rate with trial-to-trial variability.
     mean_fire = np.mean(data[neuron], axis=0)
     var_fire = np.var(data[neuron], axis=0)
     all_means.extend(mean_fire)
@@ -68,19 +66,16 @@ with open('pop_coding_3.4.pickle', 'rb') as f:
 with open('tuning_3.4.pickle', 'rb') as f:
     data = pickle.load(f)
 
-# Estimate each neuron's maximum response from the tuning data.
 rmax1 = np.max(np.mean(data['neuron1'], axis=0))
 rmax2 = np.max(np.mean(data['neuron2'], axis=0))
 rmax3 = np.max(np.mean(data['neuron3'], axis=0))
 rmax4 = np.max(np.mean(data['neuron4'], axis=0))
 
-# Average the observed responses during the test stimulus.
 r1 = np.mean(datap['r1'])
 r2 = np.mean(datap['r2'])
 r3 = np.mean(datap['r3'])
 r4 = np.mean(datap['r4'])
 
-# Build the population vector by weighting each preferred direction.
 v = (r1 / rmax1) * datap['c1'] \
     + (r2 / rmax2) * datap['c2'] \
     + (r3 / rmax3) * datap['c3'] \
@@ -114,7 +109,6 @@ I = 10  # nA
 C = 0.1  # nF
 R = 100  # M ohms
 
-# The theoretical time constant comes from the membrane equation.
 tau_theoretical = R*C
 
 print("C =", C, "nF")
@@ -130,11 +124,10 @@ V = 0
 V_trace = [V]
 time_points = [0]
 
-# Simulate how the membrane voltage charges over time.
 for t in np.arange(h, tstop, h):
     V = V + h*(- (V/(R*C)) + (I/C))
 
-    # The experimental tau is when voltage reaches about 63.2% of its final value.
+    
     if tau_experimental is None and V > 0.6321*V_inf:
         tau_experimental = t
         print("tau =", round(tau_experimental, 3), "ms")
@@ -171,7 +164,6 @@ V_trace = []
 time_points = []
 V_th = 10
 
-# Simulate voltage, threshold crossing, and refractory reset.
 for t in range(tstop):
 
     if not ref:
@@ -211,7 +203,6 @@ baseline_I = 1
 
 noise_values = np.arange(0, 5.5, 0.5)
 
-# Run the same neuron model with increasing noise amplitudes.
 for noiseamp in noise_values:
 
     V = 0
@@ -234,7 +225,6 @@ for noiseamp in noise_values:
 
     isi = np.diff(spiketimes)
 
-    # Plot a smoothed distribution only if the neuron produced enough spikes.
     if len(isi) >= 2:
         x = np.linspace(isi.min(), isi.max(), 300)
         y = np.zeros_like(x)
@@ -305,7 +295,6 @@ axs[0].set_title('Input spike train')
 
 spike_counts = []
 
-# Test how changing the synaptic time-to-peak changes output spiking.
 for t_peak in t_peak_values:
 
     const = g_peak / (t_peak * np.exp(-1))
@@ -322,15 +311,12 @@ for t_peak in t_peak_values:
 
     for t in range(tstop):
 
-        # A new input spike starts at age 0 in the alpha-function lookup.
         if spike_train[t]:
             t_list = np.concatenate([t_list, [0]])
 
-        # Sum the conductance from all active input spikes.
         g_syn = np.sum(alpha_func[t_list])
         I_syn = g_syn*(E_syn - V)
 
-        # Age all active spikes and remove the ones beyond the alpha window.
         if t_list.size > 0:
             t_list = t_list + 1
             t_list = t_list[t_list <= t_a]
@@ -347,7 +333,6 @@ for t_peak in t_peak_values:
             V = V_spike
             spike_count += 1
             ref = ref_max
-            # Increase adaptation after an output spike.
             g_ad = g_ad + G_inc
 
         V_trace += [V]
@@ -389,7 +374,6 @@ with open('c10p1.pickle', 'rb') as f:
 
 points = data["c10p1"]
 
-# Center the data so the learning rule focuses on structure, not the mean.
 mean_point = np.mean(points, axis=0)
 u = points - mean_point
 
@@ -411,13 +395,11 @@ w = np.random.rand(2)
 w = w / np.linalg.norm(w)
 num_points = len(u)
 
-# Repeatedly update the weight vector using centered input samples.
 for t in range(num_iterations):
     index = t % num_points
     current_u = u[index]
     v = current_u @ w
 
-    # Oja's rule keeps the weight vector from growing without bound.
     delta_w = dt*eta * (v * current_u - (v**2) * w)
     w = w + delta_w
 
@@ -426,7 +408,6 @@ print("Length of final vector:", np.linalg.norm(w))
 
 Q = np.cov(u.T)
 
-# Compare the learned direction to the principal eigenvector of the data.
 vals, vecs = np.linalg.eig(Q)
 principal_eigenvector = vecs[:, np.argmax(vals)]
 
