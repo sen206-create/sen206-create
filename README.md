@@ -4,7 +4,7 @@
 
 ### Computational Neuroscience and Scientific Programming
 
-I am learning how to use code for neural data analysis, constructing computational models, and to understand the process of machine learning.
+I am learning how to use Python to analyse neural data, construct computational models, and to understand the process of machine learning.
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](#)
 
@@ -15,7 +15,7 @@ I am learning how to use code for neural data analysis, constructing computation
 
 ## About Me
 
-I am interested in computational neuroscience and I am developing my programming skills through below listed projects.
+I am entering my final year of my Bacehlor's degree in Neuroscience. Recently I have cultivated an interest in computational neuroscience and I am developing my programming skills through below listed projects.
 
 My goal is to write code that helps me understand:
 
@@ -23,7 +23,6 @@ My goal is to write code that helps me understand:
 - How data from the brain can be analyzed and visualized
 - How mathematical models can explain behavior and cognition
 - How machine learning can be optimised to expedite analysis of data
-- How to make scientific code cleaner, clearer, and more reproducible
 
 ---
 
@@ -35,7 +34,7 @@ My goal is to write code that helps me understand:
 | NumPy                      | Working with arrays, signals, matrices, and numerical data                       |
 | Pandas                     | Organizing and analyzing experimental or behavioral data                         |
 | Portfolio design           | Demonstrate and record my progress on my coding journey                          |
-| Computational neuroscience | Learning neural coding, spike trains, Bayesian inference, and EEG signal analysis|
+| Computational neuroscience | Learning neural coding, spike trains, Machine Learning, and EEG signal analysis  |
 
 ---
 ## Recent Projects (Descending Chronological Order)
@@ -72,7 +71,7 @@ The [project file](Projects/ieeg-analysis-journey-first-tap-classifier.md) inclu
 
 ### University Of Washington, Computational Neuroscicence Online Course
 
-A collection of Python models and exercises from the University of Washington online computational neuroscience course. This project includes membrane dynamics, integrate-and-fire neurons, Poisson variability, population coding, noisy spike timing, synaptic input, and eigenvector-based learning.
+A collection of Python models and exercises from the University of Washington online Computational Neuroscience course. This project includes membrane dynamics, integrate-and-fire neurons, Poisson variability, population coding, noisy spike timing, synaptic input, and eigenvector-based learning.
 
 **Python skills:** NumPy, matplotlib, simulation loops, plotting, loading data with pickle.        
 **Neuroscience ideas:** neural coding, spike timing, synaptic input, and learning rules.
@@ -83,7 +82,7 @@ The [project file](Projects/uw-comp-neuro-course-models.md) includes short descr
 
 ### Leaky-integrate-and-fire Neuron Model
 
-A simple Python simulation of a leaky integrate-and-fire neuron.
+My first project was a simple simulation of a leaky integrate-and-fire neuron.
 
 This project shows how a neuron's membrane potential changes over time and the affect of input current on that change, and how a spike happens when the voltage reaches a threshold.
 
