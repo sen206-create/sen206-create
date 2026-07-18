@@ -42,10 +42,6 @@ My goal is to write code that helps me understand:
 
 A follow-up iEEG project where I improved the feature representation, then tested whether the improvement held up on unseen recordings.
 
-Instead of feeding the model raw voltage windows, I summarized each window using theta, alpha, beta, gamma, and high-gamma power. On one recording, this improved logistic regression accuracy to about 78.1%.
-
-Then I expanded across other sessions and subjects. The model dropped back to about 48-49% accuracy on the larger/unseen-recording tests, showing that single-recording success did not automatically generalize.
-
 **Python skills:** SciPy, NumPy, pandas, scikit-learn, feature extraction, model evaluation.        
 **Neuroscience idea:** frequency-band power, model interpretability, and generalization across neural recordings.
 
