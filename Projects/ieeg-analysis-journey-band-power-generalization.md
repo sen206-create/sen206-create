@@ -4,7 +4,7 @@
 
 This project is Part 2 of my iEEG analysis journey.
 
-In Part 1, my first logistic regression model failed when I used raw `channels x time` voltage windows. In this part, I redesigned the model using frequency-band power features, then tested whether the improvement generalized to other recordings.
+In Part 1, my first logistic regression model failed when I used raw channels x time voltage windows. In this part, I redesigned the model using frequency-band power features, then tested whether the improvement generalized to other recordings.
 
 The result was more realistic than perfect: the band-power model improved performance on one recording, but it did not generalize well across unseen recordings.
 
@@ -18,11 +18,8 @@ License: `CC0`
 Raw data are not included in this repository. The code expects the dataset to be downloaded separately.
 
 ## Project Question
-
-```text
-Can frequency-band power features improve tap-vs-not-tap classification,
-and do those features generalize to new iEEG recordings?
-```
+### (1a) Can frequency-band power features improve tap-vs-not-tap classification,
+### (1b) Do those features generalize to new iEEG recordings?
 
 ## Stage 3: Band-Power Features
 
@@ -60,7 +57,6 @@ def extract_band_power_features(X, sfreq, frequency_bands):
     for trial in X:
         trial_features = []
 
-        # trial shape: channels x time_points.
         freqs, psd = welch(trial, fs=sfreq, axis=1)
 
         for band_name, (fmin, fmax) in frequency_bands.items():
@@ -99,7 +95,6 @@ X_train, X_test, y_train, y_test = train_test_split(
     stratify=y_all,
 )
 
-# StandardScaler makes the band-power columns more comparable.
 model = make_pipeline(
     StandardScaler(),
     LogisticRegression(max_iter=1000),
@@ -124,28 +119,16 @@ On the same recording used in Part 1, the band-power model improved substantiall
 | Improved logistic regression | Frequency-band power | ~78.1% |
 
 The confusion matrix was:
-
-```text
-[[27 10]
- [ 6 30]]
-```
-
-This means:
-
-- 27 not-tap windows were correctly classified as not tap
-- 10 not-tap windows were incorrectly classified as tap
-- 6 tap windows were incorrectly classified as not tap
-- 30 tap windows were correctly classified as tap
-
 ![Band-power classifier confusion matrix](Figures/confusion_matrix_band_power.png)
+
 
 ## Stage 4: Testing Generalization
 
 The single-recording result was encouraging, but it raised a harder question:
 
-```text
-Does the model work on recordings it has never seen before?
-```
+
+### Does the model work on recordings it has never seen before?
+
 
 To test that, I expanded the dataset across other sessions and subjects.
 
