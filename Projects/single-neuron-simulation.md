@@ -36,10 +36,8 @@ for step in range(steps):
     time = step * dt
     time_points.append(time)
 
-    # Leak pulls the voltage back toward resting potential
     leak = 0.1 * (V_rest - V)
 
-    # Input current pushes the voltage upward
     V = V + leak + input_current
     V_trace.append(round(V, 2))
 
@@ -69,13 +67,3 @@ plt.show()
 The script prints whether the neuron spikes at each time step and saves this plot:
 
 ![Leaky integrate-and-fire neuron plot](Figures/lif_neuron_plot.png)
-
-## Notes
-
-This is a first version of the model. A future version could add:
-
-- more time steps
-- different input currents
-- a refractory period
-- multiple neurons
-- a comparison between different parameter values
