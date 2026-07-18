@@ -93,12 +93,6 @@ import mne
 
 events, event_id = mne.events_from_annotations(raw_clean)
 
-print("Event IDs:")
-print(event_id)
-
-print("First 10 events:")
-print(events[:10])
-
 tap_event_id = {
     event_name: event_code
     for event_name, event_code in event_id.items()
