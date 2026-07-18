@@ -83,8 +83,6 @@ The [project file](Projects/uw-comp-neuro-course-models.md) includes short descr
 
 My first project was a simple simulation of a leaky integrate-and-fire neuron.
 
-This project shows how a neuron's membrane potential changes over time and the affect of input current on that change, and how a spike happens when the voltage reaches a threshold.
-
 **Python skills:** loops, lists, variables, plotting with `matplotlib`.        
 **Neuroscience idea:** membrane potential, leak, threshold, and spike reset.
 
