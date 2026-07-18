@@ -126,9 +126,7 @@ The confusion matrix was:
 
 The single-recording result was encouraging, but it raised a harder question:
 
-
-### Does the model work on recordings it has never seen before?
-
+`Does the model work on recordings it has never seen before?`
 
 To test that, I expanded the dataset across other sessions and subjects.
 
