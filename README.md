@@ -55,14 +55,10 @@ The [project file](Projects/ieeg-analysis-journey-band-power-generalization.md) 
 
 ### iEEG Analysis Journey (Part One): Building the First Tap Classifier
 
-My attempt to turn raw intracranial EEG recordings into a machine learning dataset.
-
-I started by loading an OpenNeuro iEEG dataset where epileptic patients engaged ina visuo-motor task, filtered the signal, removed bad channels, found motor(finger-taps) events, and creating tap vs not-tap examples. My first logistic regression model used raw "channels x time" voltage windows and performed around chance level at about 49% accuracy.
-
-This became the first useful failure in the project: it showed me that a classifier needs a better representation than thousands of raw voltage samples.
+A project where I attempted to turn raw intracranial EEG recordings into a machine learning dataset.
 
 **Python skills:** MNE-Python, pandas, NumPy, scikit-learn, preprocessing, dataset creation.      
-**Neuroscience idea:** iEEG filtering, finger-tap events, epoching, and why raw voltage windows are hard to classify.
+**Neuroscience idea:** iEEG filtering, finger-tap events, and epoching
 
 The [project file](Projects/ieeg-analysis-journey-first-tap-classifier.md) includes the preprocessing workflow and the first failed classifier.
 
