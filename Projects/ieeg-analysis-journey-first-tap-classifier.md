@@ -73,6 +73,8 @@ fig = raw_clean.plot(duration=10, n_channels=20, show=False)
 fig.savefig("clean_ieeg_plot.png")
 ```
 
+![Clean_power_spectrum](Figures/clean_power_spectrum.png)
+
 ## Stage 2: Create Tap and Not-Tap Examples
 
 The dataset contains annotations for the task. In this dataset, trigger `101` marks finger tapping. MNE reads this as `Trigger-101`.
